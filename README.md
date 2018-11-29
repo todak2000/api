@@ -21,4 +21,4 @@ CRUD apis
 ###            $pass = $form_data['password'];
 
 ## others will be uploaded soon. Thanks
-##  todak2000
+##  contributors: todak2000, mattolu, idumachika,ebenzy
