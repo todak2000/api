@@ -1,4 +1,4 @@
-<!-- You can call this SIGNUP API via: http://localhost/a2b/api/signup/signup.php     -->
+<!-- You can call this SIGNUP API via: https://todakapi.herokuapp.com/signupapi/signup.php     -->
 
 
 
