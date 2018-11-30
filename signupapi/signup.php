@@ -31,7 +31,7 @@ if (mysqli_connect_errno())
             $ref = unique_linka(6); // driver's unique id generated
             $driver_id = "A2B-".$ref;           
             $password = unique_linka(10); // driver's unique password generated
-        
+        if(isset($_POST["submit"])){
             $form_data = array(
                 'first_name'		=>	$_POST['first_name'],
                 'last_name'		=>	$_POST["last_name"],
@@ -70,7 +70,7 @@ if (mysqli_connect_errno())
                 );
                 echo json_encode($data); 
             }
-           
+	}   
 
 ?>
 
